@@ -12,9 +12,38 @@
     background-color: aqua;
     width: 50px;
     height: 50px;
-    border: 1px solid #000;
+    border: 1px solid #fff;
 }
 
-.destroyer{
+.taken{
     background-color: blueviolet !important;
+}
+
+.ship{
+    display: flex;
+    margin: 10px;
+}
+
+.destroyer div{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+
+.submarine div{
+    height: 50px;
+    width: 53px;
+    background-color: blueviolet;
+}
+
+.battleship div{
+    height: 50px;
+    width: 53px;
+    background-color: chartreuse;
+}
+
+.carrier div{
+    height: 50px;
+    width: 52px;
+    background-color: darkgoldenrod;
 }
